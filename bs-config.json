@@ -2,8 +2,8 @@
   "open": false,
   "proxy": "localhost:8888",
   "files": [
-        "web/wp-content/themes/base-theme/views",
-        "web/wp-content/themes/base-theme/inc",
+        "web/wp-content/themes/complex-codas/views",
+        "web/wp-content/themes/complex-codas/inc",
         "src"
     ],
   "watchEvents": ["add", "change"],

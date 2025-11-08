@@ -1,6 +1,6 @@
 <article class="border-b border-gray-200 pb-6">
     <h2 class="mb-2 text-2xl font-semibold">
-        <a href="#" class="text-gray-900 transition-colors hover:text-blue-600">
+        <a href="{{ $permalink }}" class="text-gray-900 transition-colors hover:text-blue-600">
             {{ $title }}
         </a>
     </h2>

@@ -1,5 +1,5 @@
 @if ($totalPages > 1)
-    <nav class="mt-12 flex justify-center" aria-label="Pagination">
+    <nav class="mt-6 flex justify-center" aria-label="Pagination">
         <ul class="flex items-center gap-2">
             {{-- Previous Button --}}
             @if ($currentPage > 1)

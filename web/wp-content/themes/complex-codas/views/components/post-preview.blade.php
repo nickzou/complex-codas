@@ -34,6 +34,8 @@
                     [
                         "title" => $title,
                         "date" => $date,
+                        "titleClasses" => null,
+                        "dateClasses" => null,
                     ]
                 )
             @endif

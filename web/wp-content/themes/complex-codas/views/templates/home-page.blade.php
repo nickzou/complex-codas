@@ -14,6 +14,7 @@
                             "date" => $post["date"],
                             "excerpt" => $post["excerpt"],
                             "permalink" => $post["permalink"],
+                            "featuredImage" => $post["featuredImage"],
                         ]
                     )
                 @endforeach

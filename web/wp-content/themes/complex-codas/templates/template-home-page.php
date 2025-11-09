@@ -24,6 +24,7 @@ if ($query->have_posts()) {
             "date" => get_the_date("F j, Y"),
             "excerpt" => get_the_excerpt(),
             "permalink" => get_permalink(),
+            "featuredImage" => get_the_post_thumbnail_url(get_the_ID(), "post-preview"),
         ];
     }
     wp_reset_postdata();

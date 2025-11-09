@@ -16,7 +16,7 @@
 
             <div class="absolute right-0 bottom-0 left-0 p-2.5 text-white lg:p-6">
                 <h2
-                    class="mb-1.5 text-2xl leading-tight font-bold tracking-wide transition-colors duration-200 group-hover:text-blue-300 lg:mb-2"
+                    class="text-2xl leading-tight font-bold tracking-wide transition-colors duration-200 group-hover:text-blue-300 lg:mb-2"
                 >
                     {{ $title }}
                 </h2>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="bg-white p-6 transition-colors duration-200 group-hover:bg-gray-50">
-            <p class="leading-relaxed text-gray-700">
+            <p class="text-sm leading-relaxed text-gray-700 lg:text-base">
                 {{ $excerpt }}
             </p>
         </div>

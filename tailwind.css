@@ -5,3 +5,15 @@
 @variant dark (.dark &);
 
 [x-cloak] {display:none!important}
+
+@theme {
+    --color-midnight-100: #fcfcfc;
+    --color-midnight-200: #f2f5f7;
+    --color-midnight-300: #E5EAEF;
+    --color-midnight-400: #CCD6E0;
+    --color-midnight-500: #4C7093;
+    --color-midnight-600: #003366;
+    --color-midnight-700: #002851;
+    --color-midnight-800: #001428;
+    --color-midnight-900: #000F1E;
+}

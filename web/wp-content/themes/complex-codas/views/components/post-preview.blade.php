@@ -3,7 +3,7 @@
 >
     <a href="{{ $permalink }}" class="block !no-underline">
         @if (! empty($featuredImage))
-            <div class="relative h-64 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
+            <div class="relative h-64 overflow-hidden bg-gradient-to-br from-midnight-800 to-midnight-900">
                 <img
                     src="{{ $featuredImage }}"
                     alt="{{ $title }}"
@@ -19,15 +19,15 @@
                         [
                             "title" => $title,
                             "date" => $date,
-                            "titleClasses" => "tracking-wide text-white group-hover:text-blue-300 lg:mb-2",
-                            "dateClasses" => "text-gray-200 group-hover:text-gray-100",
+                            "titleClasses" => "tracking-wide text-white group-hover:text-midnight-400 lg:mb-2",
+                            "dateClasses" => "text-midnight-200 group-hover:text-white",
                         ]
                     )
                 </div>
             </div>
         @endif
 
-        <div class="bg-white p-6 transition-colors duration-200 group-hover:bg-gray-50">
+        <div class="bg-white p-6 transition-colors duration-200 group-hover:bg-midnight-100">
             @if (empty($featuredImage))
                 @include(
                     "components.post-preview.header",

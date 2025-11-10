@@ -4,11 +4,7 @@
     <a href="{{ $permalink }}" class="block !no-underline">
         @if (! empty($featuredImage))
             <div class="relative h-64 overflow-hidden bg-gradient-to-br from-midnight-800 to-midnight-900">
-                <img
-                    src="{{ $featuredImage }}"
-                    alt="{{ $title }}"
-                    class="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
-                />
+                {!! $featuredImage !!}
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent transition-opacity duration-200 group-hover:from-black/80"
                 ></div>

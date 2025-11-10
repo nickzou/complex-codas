@@ -2,7 +2,7 @@
     @if (! empty($featuredImage))
         {{-- Featured Image with Overlay --}}
         <div class="relative mb-8 aspect-square w-full overflow-hidden rounded-lg lg:aspect-[16/7]">
-            <img src="{{ $featuredImage }}" alt="{{ $title }}" class="h-auto w-full object-cover" />
+            {!! $featuredImage !!}
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
 
             <div class="absolute right-0 bottom-0 left-0 px-4 py-6 text-white lg:p-8">

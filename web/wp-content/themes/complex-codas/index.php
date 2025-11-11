@@ -27,7 +27,9 @@ if ($query->have_posts()) {
             "date" => get_the_date("F j, Y"),
             "excerpt" => get_the_excerpt(),
             "permalink" => get_permalink(),
-            "featuredImage" => get_the_post_thumbnail_url(get_the_ID(), "post-preview"),
+            "featuredImage" => get_the_post_thumbnail(get_the_ID(), "post-preview", [
+                "class" => "h-full w-full object-cover transition-transform duration-200 group-hover:scale-105",
+            ]),
         ];
     }
     wp_reset_postdata();
